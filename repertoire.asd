@@ -17,7 +17,7 @@
                 :serial t
                 :components ((:file "package")
                              (:file "repertoire"))))
-  :description "repertoire learning tool"
+  :description "A repertoire learning tool."
   :in-order-to ((test-op (test-op repertoire/test))))
 
 

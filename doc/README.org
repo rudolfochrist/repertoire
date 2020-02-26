@@ -1,0 +1,39 @@
+#+STARTUP: showall
+#+OPTIONS: toc:nil
+
+# This is just the template README. Export to markdown to get the real README.
+
+* NAME
+
+repertoire --- A repertoire learning tool 
+
+* VERSION
+
+#+BEGIN_SRC lisp :exports results
+(format nil "Version ~A"
+        (asdf:component-version (asdf:find-system "repertoire")))
+#+END_SRC
+
+* SYNOPSIS
+
+* DESCRIPTION
+
+** FUNCTIONS
+
+** VARIABLES
+
+* AUTHOR
+
+Verena Lambrecht [[mailto:verena.lambrecht@gmail.com]]
+Sebastian Christ [[mailto:rudolfo.christ@gmail.com]]
+
+* COPYRIGHT
+
+Copyright (c) 2020 Verena Lambrecht <verena.lambrecht@gmail.com>, 
+                   Sebastian Christ <rudolfo.christ@gmail.com>
+
+* LICENSE
+
+Released under the AGPL license.
+
+* SEE ALSO
