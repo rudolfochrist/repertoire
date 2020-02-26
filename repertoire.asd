@@ -1,10 +1,15 @@
 ;;;; repertoire.asd
 
 (defsystem "repertoire"
-  :author "Sebastian Christ, Verena Lambrecht"
-  :maintainer "Sebastian Christ, Verena Lambrecht"
-  :licence "MIT"
+  :author ("Verena Lambrecht <verena.lambrecht@gmail.com>"
+           "Sebastian Christ <rudolfo.christ@gmail.com>")
+  :maintainer ("Verena Lambrecht <verena.lambrecht@gmail.com>"
+               "Sebastian Christ <rudolfo.christ@gmail.com>")
+  :licence "AGPL"
   :version "0.1"
+  :homepage "https://github.com/rudolfochrist/repertoire"
+  :bug-tracker "https://github.com/rudolfochrist/repertoire/issues"
+  :source-control (:git "github.com:rudolfochrist/repertoire.git")
   :depends-on ("local-time"
                "cl-yesql"
                "cl-yesql/sqlite")
