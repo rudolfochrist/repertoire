@@ -1,8 +1,6 @@
 ;;;; package.lisp
 
 (defpackage #:repertoire-tests
-  (:use :cl :fiveam))
+  (:use :cl :rove))
 
 (in-package #:repertoire-tests)
-
-(def-suite :repertoire)

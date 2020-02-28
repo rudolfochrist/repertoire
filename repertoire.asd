@@ -23,11 +23,11 @@
 
 (defsystem "repertoire/test"
   :depends-on ("uiop"
-               "fiveam"
+               "rove"
                "repertoire")
   :components ((:module "t"
                 :serial t
                 :components ((:file "package")
                              (:file "repertoire"))))
   :perform (test-op (o c)
-                    (uiop:symbol-call :5am :run! :repertoire)))
+                    (uiop:symbol-call :rove :run c)))

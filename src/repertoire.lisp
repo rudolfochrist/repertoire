@@ -2,7 +2,8 @@
 
 (in-package #:repertoire)
 
-(defvar *db-path* (asdf:system-relative-pathname "repertoire" "db/repertoire_database_dev.sqlite3"))
+(defvar *db-path*
+  (asdf:system-relative-pathname "repertoire" "db/repertoire_database_dev.sqlite3"))
 
 (yesql:import song-operations
   :from "db/song-operations.sql"
